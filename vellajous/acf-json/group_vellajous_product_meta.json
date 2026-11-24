@@ -1,0 +1,108 @@
+{
+    "key": "group_vellajous_product_meta",
+    "title": "Perfume Olfactory & Brand Details",
+    "fields": [
+        {
+            "key": "field_prod_brand",
+            "label": "Brand Eyebrow",
+            "name": "_brand",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "Appears above product title in gold uppercase font.",
+            "required": false,
+            "conditional_logic": false,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "VELLAJOUS HAUTE PARFUMERIE",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_prod_top_notes",
+            "label": "Top Notes (0-30 Mins Opening)",
+            "name": "top_notes",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "Comma-separated opening chords (e.g. Italian Bergamot, Mandarin, Pear).",
+            "required": false,
+            "conditional_logic": false,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_prod_heart_notes",
+            "label": "Heart Notes (2-6 Hours Core Aura)",
+            "name": "heart_notes",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "Comma-separated core chords (e.g. Damask Rose, Jasmine, Orange Blossom).",
+            "required": false,
+            "conditional_logic": false,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_prod_base_notes",
+            "label": "Base Notes (8-12+ Hours Sillage)",
+            "name": "base_notes",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "Comma-separated enduring chords (e.g. Amber Crystal, White Musk, Vanilla).",
+            "required": false,
+            "conditional_logic": false,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "product"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": [],
+    "active": true,
+    "description": "",
+    "show_in_rest": false,
+    "display_title": "",
+    "allow_ai_access": false,
+    "ai_description": "",
+    "modified": 1793262005
+}

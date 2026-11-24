@@ -1,0 +1,30 @@
+/*!
+Theme Name: Vellajous
+Theme URI: http://localhost/saurabh-task/vellajous/
+Author: Vellajous Team
+Author URI: http://localhost/saurabh-task/vellajous/
+Description: Luxury Perfumes E-Commerce Theme with Video Hero, Interactive Product Cards & WooCommerce Integration.
+Version: 1.0.0
+Tested up to: 6.7
+Requires PHP: 7.4
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: vellajous
+*/
+
+:root {
+  --vellajous-primary-green: #294742;
+  --vellajous-white: #ffffff;
+  --vellajous-alt-white: #f7f9f7;
+}
+/* Strict Custom Logo Constraints */
+.site-logo img,
+.custom-logo,
+img.custom-logo {
+  max-height: 38px !important;
+  max-width: 210px !important;
+  width: auto !important;
+  height: auto !important;
+  object-fit: contain !important;
+  display: block !important;
+}
